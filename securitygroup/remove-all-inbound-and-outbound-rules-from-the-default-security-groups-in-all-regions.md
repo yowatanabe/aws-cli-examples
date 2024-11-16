@@ -1,4 +1,4 @@
-# Remove all inbound and outbound rules from the default security groups
+# Remove all inbound and outbound rules from the default security groups in all regions
 
 AWS SecurityHub [EC2.2](https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-2) checks if the default security group allows inbound or outbound traffic. If the security group allows inbound or outbound traffic, the control fails.
 
